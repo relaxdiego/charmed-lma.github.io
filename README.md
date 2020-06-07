@@ -41,7 +41,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ```
 sudo apt install ruby-dev
 sudo gem install jekyll bundler
-bundle install --with=development,jeykyll_plugins
+bundle install
 bundle exec jekyll server
 ```
 

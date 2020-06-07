@@ -9,14 +9,10 @@ defaults:
 # Reference: https://help.github.com/en/enterprise/2.14/user/articles/repository-metadata-on-github-pages
 repository: charmed-lma/charmed-lma.github.io
 
-# Change the directory where Jekyll will read files
-source: src/
-
 exclude:
   - README.md
 
 theme: jekyll-theme-minimal
-logo: /assets/img/logo.jpg
 title: Charmed LMA
 description: Kubernetes Operators For Your LMA Stack
 show_downloads: false
