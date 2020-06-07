@@ -1,1 +1,23 @@
+# More configuration options at https://jekyllrb.com/docs/configuration/options/
+
+defaults:
+  - scope:
+      path: index.md
+    values:
+      layout: index
+
+# Reference: https://help.github.com/en/enterprise/2.14/user/articles/repository-metadata-on-github-pages
+repository: charmed-lma/charmed-lma.github.io
+
+# Change the directory where Jekyll will read files
+source: src/
+
+exclude:
+  - README.md
+
 theme: jekyll-theme-minimal
+logo: /assets/img/logo.jpg
+title: Charmed LMA
+description: Kubernetes Operators For Your LMA Stack
+show_downloads: false
+google_analytics: G-Q7PTHKB0W7
