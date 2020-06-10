@@ -13,3 +13,11 @@ Charmed LMA.
 We're looking for folks who can help kick the tires and tell us what works
 and what doesn't. If you're interested, head on over to our [GitHub org]({{ site.github.owner_url }})
 and try out one or more of the charms!
+
+## Latest Updates
+
+{% for post in site.posts limit: 3 %}
+### <a href="{{ post.url }}">{{ post.title }}</a>
+<p>{{ post.excerpt }} <a href="{{ post.url }}">More...</a></p>
+{% endfor %}
+<p><a href="/posts">All Updates</a></p>

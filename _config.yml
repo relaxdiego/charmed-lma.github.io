@@ -5,6 +5,25 @@ defaults:
       path: index.md
     values:
       layout: index
+  - scope:
+      path: _posts/
+    values:
+      layout: post
+      excerpt-separator: <!--more-->
+  - scope:
+      path: posts/index.html
+    values:
+      layout: index
+
+plugins:
+  - jekyll-paginate-v2
+
+# Pagination guide https://github.com/sverrirs/jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/posts/:num/'
+  sort_reverse: true
 
 # Reference: https://help.github.com/en/enterprise/2.14/user/articles/repository-metadata-on-github-pages
 repository: charmed-lma/charmed-lma.github.io
